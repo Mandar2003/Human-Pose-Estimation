@@ -68,4 +68,4 @@ output=poseDetector(input)
 cv2.imwrite("OutPut-image.png",output)
 
 cv2.waitKey(0)
-cv2.destroyAllWindows
+cv2.destroyAllWindows()

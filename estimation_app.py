@@ -81,7 +81,6 @@ def poseDetector(frame):
             cv2.ellipse(frame, points[idTo],(3,3), 0, 0, 360, (0, 0, 255), cv2.FILLED)
 
     t, _=net.getPerfProfile()
-
     return frame
 
 output=poseDetector(image)
